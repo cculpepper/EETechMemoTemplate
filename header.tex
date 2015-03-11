@@ -7,7 +7,7 @@
 
 \usepackage{amsmath}	%Provides features and environments to help writing math equations, such as the align environment
 \usepackage{graphicx}	%provides some extra features for including graphics. Optional
-\usepackage[margin=1in]{geometry}	%Set the margins of the paper
+\usepackage[margin=0.8in]{geometry}	%Set the margins of the paper
 \usepackage{float}	%Provides the [H] for hard setting things. It means "Put this exactly her
 \usepackage{circuitikz}	%Used for circuit drawing
 \usepackage[export]{adjustbox}	%Used for alligning the RIT image to the right
@@ -23,6 +23,9 @@
 \usepackage{colortbl} %So every other row of the table con be gray
 \usepackage{fancyhdr} %For header and footer functionalithy
 \usepackage{lastpage} %To get the last page num for the footer.
+\usepackage{xcolor} %For different colors. 
+
+\definecolor{light-gray}{gray}{0.85} %The gray color used for every other row in the table 
 
 %To get numbers into Engineering notation, use \num{thhe number here} 
 \sisetup{exponent-product = \times ,round-mode = figures,%
@@ -105,7 +108,7 @@
 				\renewcommand{\dtlbeforecols}{a}
 				\renewcommand{\dtlaftercols}{a}
 				\renewcommand{\dtlbetweencols}{a}
-				\\[-3ex]\DTLifoddrow{\rowcolor{gray}}{\rowcolor{white}}%
+				\\[-3ex]\DTLifoddrow{\rowcolor{light-gray}}{\rowcolor{white}}%
 
 				\DTLforeachkeyinrow{\thisValue}{
 					\doamp 
@@ -134,7 +137,7 @@
  %Starts the RIT logo
 \begin{flushright}
 \begin{figure}[H]
-\includegraphics[height=9ex,right]{../title.eps}
+\includegraphics[height=9ex,right]{../title.png}
 \end{figure}
 \end{flushright}
 \noindent

@@ -1,4 +1,5 @@
 %Lab template made by Joshua Milas for the EEEE labs
+%Modified highly by Chris Culpepper
 
 
 
@@ -16,28 +17,29 @@
 \usepackage{caption} %For caption junk
 \usepackage{siunitx} % Formats the units and values
 \usepackage{pgfplotstable} % Generates table from .csv
-\usepackage{booktabs}
-\usepackage{commath}
+\usepackage{commath} %Used for math functions
 
-\usepackage{csvsimple}
-\usepackage{datatool}
-\usepackage{colortbl}
-\usepackage{fancyhdr}
-\usepackage{lastpage}
+\usepackage{datatool} %For the importation of CSVs to tables
+\usepackage{colortbl} %So every other row of the table con be gray
+\usepackage{fancyhdr} %For header and footer functionalithy
+\usepackage{lastpage} %To get the last page num for the footer.
 
-
+%To get numbers into Engineering notation, use \num{thhe number here} 
 \sisetup{exponent-product = \times ,round-mode = figures,%
 	  round-precision = 5, scientific-notation = engineering}
 
+%These are the caption declarations for equations and tables. 
 \DeclareCaptionType{equationCaption}[][List of equations]
 \DeclareCaptionType{tableCaption}[][List of Tables]
 \captionsetup[equationCaption]{name=Equation}%{labelformat=Equation}
 \captionsetup[tableCaption]{name=Table}%{labelformat=Equation}
 
-%\setlength{\parskip}{1ex}	%The space inbetween paragraphs
+%For the pictures, i think
 \epstopdfsetup{outdir=./}
 
+%To move the section titles to match the format. 
 \titlespacing\section{0pt}{5pt}{-2em}
+
 
 \newcommand{\tab}{\hspace*{1.5em}}	%Tab command
 \newcommand{\newsection}[1]{\setlength{ 	%Make a section
@@ -46,6 +48,10 @@
 	\vspace{5ex}
 	%\setlength{\leftskip}{1em}
 }
+%This pretty prints an equation. 
+%1st arg: The label to be used for reference 
+%2nd arg: The equation. Use Math Mode. 
+%3rd arg: The caption text. 
 \newcommand{\eq}[3]{
 	\begin{equationCaption}[H]
 		\begin{equation}
@@ -54,7 +60,11 @@
 		\end{equation}
 		\caption{#3}
 	\end{equationCaption}}
-
+%Adds an image, captions and labels. 
+%1: Optional arguments to \includegraphics. Use to set image params. 
+%2: The filename
+%3: The caption
+%4: The label for referential purposes. 
 \newcommand{\nimg}[4][]{
 	\begin{figure}[H]
 		\centering
@@ -63,6 +73,10 @@
 		\label{#4}
 	\end{figure}
 }
+%Adds a table by CSV. Adds caption, label. 
+%1 The label
+%2 The filename
+%3 The caption
 \newcommand{\ntab}[3]{
 	\DTLloaddb{#1}{#2}
 	\arrayrulecolor{black}
@@ -108,33 +122,36 @@
 			}
 \begin{document}
 %\maketitle
-\pagestyle{fancy}
+\pagestyle{fancy} %Sets up the page to fancy for the header. 
 \fancyhf{} % sets both header and footer to nothing
-\renewcommand{\headrulewidth}{0pt}
-% your new footer definitions here}<++>
-\renewcommand{\headsep}{0pt}
-%\headrulewidth{0pt}
-\lfoot{EEEE381 Tech Memo Lab \dispname}
-\cfoot{\dateend}
-\rfoot{\thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt} %Used to remove the spacing in a header.
+% your new footer definitions here
+\renewcommand{\headsep}{0pt} %Removes extra headerspacing
+\lfoot{EEEE381 Tech Memo Lab \labnum} %The left part of the footer
+\cfoot{\dateend} %The due date
+\rfoot{\thepage\ of \pageref{LastPage}} %The right footer
+
+ %Starts the RIT logo
 \begin{flushright}
 \begin{figure}[H]
 \includegraphics[height=9ex,right]{../title.eps}
 \end{figure}
 \end{flushright}
 \noindent
-\\[-3em]
+\\[-3em] %Removes extra space. Jankily. 
+ %Starts the title
 \huge
 \textbf{EEEE 381 - Electronics I \\[1ex] Techical Memorandum}\\
 \normalsize
 
+ %This is the to/from garbage. Should probably make the name and section numbers variable
 \noindent
 \begin{tabular}{ll}
 \textbf{From:} &Christopher Culpepper (Computer Engineering)\\
 \textbf{Partner:} &N/A\\
 \textbf{To:} &To: \tonames\ | Section L3\\
 \textbf{Date:} &Performed: \datestart; Due: \dateend\\
-\textbf{Subject:} &Lab \dispname: \disptitle
+\textbf{Subject:} &Lab \labnum: \disptitle
 \end{tabular}
 
 \noindent

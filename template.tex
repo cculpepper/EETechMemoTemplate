@@ -1,0 +1,81 @@
+%Lab template made by Joshua Milas for the EEEE labs
+
+\def \dispname	{<Number here \#1>}
+\def \disptitle	{<Lab title>}
+\def \datestart	{<MM>-<DD>-2015}
+\def \dateend	{<MM>-<DD>-2015}
+
+
+\documentclass[12pt]{article}	%12 point font
+
+\usepackage{amsmath}	%Provides features and enviroments to help writing math equations, such as the align enviroment
+\usepackage{graphicx}	%provides some extra features for includin graphics. optional
+\usepackage[margin=1in]{geometry}	%Set the margins of the paper
+\usepackage{float}	%Provides the [H] for hard setting things. It means "Put this exactly her
+\usepackage{circuitikz}	%Used for circuit drawing
+\usepackage[export]{adjustbox}	%Used for alligning the RIT image to the right
+\usepackage{epstopdf}	%Used to include .eps vector images
+
+\setlength{\parskip}{2ex}	%The space inbetween paragraphs
+
+\newcommand{\tab}{\hspace*{1.5em}}	%Tab command
+\newcommand{\newsection}[1]{\setlength{ 	%Make a section
+	\leftskip}{0em}
+	\vspace{5ex}
+	\section*{#1}
+	\setlength{\leftskip}{1em}
+}
+
+
+\begin{document}
+%\maketitle
+\begin{flushright}
+\begin{figure}[H]
+\includegraphics[height=9ex,right]{../title.eps}
+\end{figure}
+\end{flushright}
+\noindent
+\huge
+\textbf{EEEE 381 - Electronics 1 Techical Memorandum}\\
+\normalsize
+
+\noindent
+\begin{tabular}{ll}
+\textbf{From:} &Christopher Culpepper (Computer Engineering)\\
+\textbf{Partner:} &N/A\\
+\\
+\textbf{To:} &TODO | Section L1\\
+\textbf{Date:} &Preformed: \datestart; Due: \dateend\\
+\textbf{Subject:} &Lab \dispname: \disptitle
+\end{tabular}
+
+\noindent
+\rule{\textwidth}{.1pt}
+
+
+\newsection{Abstract}
+
+
+
+
+\newsection{Theory}
+
+
+
+
+\newsection{Results}
+
+
+
+
+\newsection{Discussion}
+
+
+
+
+\newsection{Conclusion}
+
+
+
+
+\end{document}

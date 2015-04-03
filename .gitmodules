@@ -1,6 +1,0 @@
-[submodule "lab2"]
-	path = lab2
-	url = ./lab2
-[submodule "lab3"]
-	path = lab3
-	url = ./lab3

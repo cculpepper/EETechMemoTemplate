@@ -1,0 +1,27 @@
+* source LAB2
+M_M1         N00112 N00112 N00116 N00116 Mbreakn  
++ L=10um  
++ W=1000um         
+M_M2         N01631 N00112 N00116 N00116 Mbreakn  
++ L=10um  
++ W=1000um         
+R_R1         N01604 N00263  3756 TC=0,0 
+R_R2         N01671 N00263  100 TC=0,0 
+V_V1         N00263 0 10Vdc
+V_V2         0 N00116 10Vdc
+M_M4         N01159 N01159 N01163 N01163 Mbreakn  
++ L=10um  
++ W=1000um         
+V_V3         N01259 0 5Vdc
+M_M3         N01253 N01159 N01163 N01163 Mbreakn  
++ L=10um  
++ W=1000um         
+R_R3         N01159 N01259  1.8778k TC=0,0 
+R_R4         N01253 N01259  125 TC=0,0 
+V_V4         0 N01163 5Vdc
+M_M5         N01671 N01604 N00112 N01529 Mbreakn  
++ L=10um  
++ W=1000um         
+M_M6         N01604 N01604 N01631 N01600 Mbreakn  
++ L=10um  
++ W=1000um         

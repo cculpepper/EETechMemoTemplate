@@ -19,7 +19,26 @@ Two amplifier circuits were created and analyzed under varying loads, in order t
 The data was analyzed and found to be <TODO>
 
 \newsection{Theory}
-
+A simple current source can be constructed using two transistors, as shown in figure \ref{fig:simpleSrc}.
+In figure \ref{fig:simpleSrc}, the current source can be replaced with a resistor. This eases calculations, once the resister value is calculated. 
+The current through the resistor is equal to the current through the left MOSFET, and this current sets the gate voltage for the two transistors. This makes the current through the right transistor proportional to the value of the resistor. 
+\\
+The two transistor source is not ideal in the fact that it has a relatively high output impedance, in comparison to another design, the Modified Wilson Current Source. This source is shown in figure \ref{fig:wilson}. Note that in this circuit, the current source can be replaced with a resistor. 
+\\
+An important parameter when analyzing the performance of current sources is the output resistance, $R_{out}$. For the simple current source, the output resistance of the circuit is simply the value of $r_o$ for the transistor on the right. This is shown in equation \ref{eq:simpleROut}.
+The output resistance for the Modified Wilson source is shown in equation \ref{eq:wilsonROut}. 
+Note that the output resistance for the Modified Wilson Source is approximate. This is due to the fact that the other terms in the derivation are minor in comparison to the $(g_mr_o)r_o$ term. 
+\eq{eq:simpleROut}{
+	R_{out} = r_o
+	}{
+	Output Resistance for the Simple Current Source}
+\eq{eq:wilsonROut}{
+	R_{out} \approx (g_mr_o)r_o = g_mr_o^2}{
+	Output Resistance for the Modified Wilson Current Source}
+In order to calculate $r_o$ for the two circuits, equation \ref{eq:ro} is used. To calculate $g_m$, equation \ref{eq:gm} is used. 
+\eq{eq:ro}{
+	r_o = \frac{1}{\lambda I_d}{
+	$r_o$ Calculation Equation}}
 \newsection{Results}
 \newsection{Conclusion}
 

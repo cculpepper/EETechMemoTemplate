@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.3.6)  3 APR 2015 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.3.6)  3 APR 2015 19:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1204,134 +1204,116 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--149
 
  []
 
-) [1
+)
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../title.png>]
-[2] <part1.png, id=21, 455.12892pt x 256.38643pt>
-File: part1.png Graphic file (type png)
- <use part1.png>
-Package pdftex.def Info: part1.png used on input line 86.
-(pdftex.def)             Requested size: 455.1278pt x 256.38579pt.
-
-<part2.png, id=22, 455.12892pt x 256.38643pt>
-File: part2.png Graphic file (type png)
- <use part2.png>
-Package pdftex.def Info: part2.png used on input line 87.
-(pdftex.def)             Requested size: 455.1278pt x 256.38579pt.
- [3] [4 <./part1.png (PNG copy)> <./part2.png (PNG copy)>]
-<part5NMOS.png, id=30, 455.12892pt x 256.38643pt>
-File: part5NMOS.png Graphic file (type png)
- <use part5NMOS.png>
-Package pdftex.def Info: part5NMOS.png used on input line 98.
-(pdftex.def)             Requested size: 455.1278pt x 256.38579pt.
-
-<part5PMOS.png, id=31, 455.12892pt x 256.38643pt>
-File: part5PMOS.png Graphic file (type png)
- <use part5PMOS.png>
-Package pdftex.def Info: part5PMOS.png used on input line 99.
-(pdftex.def)             Requested size: 455.1278pt x 256.38579pt.
- [5 <./part5NMOS.png (PNG copy)>]
-\dtldb@tbl:part5FinRes=\toks67
-\dtlkeys@tbl:part5FinRes=\toks68
-\dtlrows@tbl:part5FinRes=\count298
-\dtlcols@tbl:part5FinRes=\count299
- <part6.png, id=35, 626.34pt x 351.02571pt>
-File: part6.png Graphic file (type png)
-
-<use part6.png>
-Package pdftex.def Info: part6.png used on input line 104.
-(pdftex.def)             Requested size: 433.62pt x 243.0275pt.
- [6 <./part5PMOS.png (PNG copy)>]
-\dtldb@tbl:part6FinRes=\toks69
-\dtlkeys@tbl:part6FinRes=\toks70
-\dtlrows@tbl:part6FinRes=\count300
-\dtlcols@tbl:part6FinRes=\count301
-\dtldb@tbl:part7Res=\toks71
-\dtlkeys@tbl:part7Res=\toks72
-\dtlrows@tbl:part7Res=\count302
-\dtlcols@tbl:part7Res=\count303
-\dtldb@tbl:part72fin=\toks73
-\dtlkeys@tbl:part72fin=\toks74
-\dtlrows@tbl:part72fin=\count304
-\dtlcols@tbl:part72fin=\count305
+LaTeX Warning: Reference `fig:simpleSrc' on page 1 undefined on input line 22.
 
 
-LaTeX Warning: Reference `fig:part8plot' on page 7 undefined on input line 118.
+LaTeX Warning: Reference `fig:simpleSrc' on page 1 undefined on input line 23.
 
 
-<part8.png, id=39, 608.2725pt x 334.67892pt>
-File: part8.png Graphic file (type png)
- <use part8.png>
-Package pdftex.def Info: part8.png used on input line 119.
-(pdftex.def)             Requested size: 433.62pt x 238.58887pt.
- [7 <./part6.png (PNG copy)>]
-\dtldb@tbl:part8finnmos=\toks75
-\dtlkeys@tbl:part8finnmos=\toks76
-\dtlrows@tbl:part8finnmos=\count306
-\dtlcols@tbl:part8finnmos=\count307
-
-Overfull \hbox (17.61661pt too wide) in paragraph at lines 121--121
- [][] 
- []
-
-\dtldb@tbl:part8finpmos=\toks77
-\dtlkeys@tbl:part8finpmos=\toks78
-\dtlrows@tbl:part8finpmos=\count308
-\dtlcols@tbl:part8finpmos=\count309
-
-Overfull \hbox (17.61661pt too wide) in paragraph at lines 122--122
- [][] 
- []
-
-\dtldb@tbl:part5NMOS=\toks79
-\dtlkeys@tbl:part5NMOS=\toks80
-\dtlrows@tbl:part5NMOS=\count310
-\dtlcols@tbl:part5NMOS=\count311
-\dtldb@tbl:part5PMOS=\toks81
-\dtlkeys@tbl:part5PMOS=\toks82
-\dtlrows@tbl:part5PMOS=\count312
-\dtlcols@tbl:part5PMOS=\count313
-[8 <./part8.png (PNG copy)>]
-\dtldb@tbl:part6=\toks83
-\dtlkeys@tbl:part6=\toks84
-\dtlrows@tbl:part6=\count314
-\dtlcols@tbl:part6=\count315
-\dtldb@tbl:part8=\toks85
-\dtlkeys@tbl:part8=\toks86
-\dtlrows@tbl:part8=\count316
-\dtlcols@tbl:part8=\count317
+LaTeX Warning: Reference `fig:wilson' on page 1 undefined on input line 26.
 
 
-Package caption Warning: Unused \captionsetup[tableCaption] on input line 38.
-See the caption package documentation for explanation.
+LaTeX Warning: Reference `eq:simpleROut' on page 1 undefined on input line 28.
 
 
-AED: lastpage setting LastPage
-[9] (./template.aux)
+LaTeX Warning: Reference `eq:wilsonROut' on page 1 undefined on input line 29.
 
-LaTeX Warning: There were undefined references.
 
- ) 
+LaTeX Warning: Reference `eq:ro' on page 1 undefined on input line 38.
+
+
+LaTeX Warning: Reference `eq:gm' on page 1 undefined on input line 38.
+
+./template.tex:42: Missing } inserted.
+<inserted text> 
+                }
+l.42 \newsection
+                {Results}
+? 
+./template.tex:42: Display math should end with $$.
+<to be read again> 
+                   r
+l.42 \newsection
+                {Results}
+? 
+./template.tex:42: Missing $ inserted.
+<inserted text> 
+                $
+l.42 \newsection
+                {Results}
+? 
+./template.tex:42: Extra }, or forgotten \endgroup.
+<argument> ...da I_d}{ $r_o$ Calculation Equation}
+                                                  
+l.42 \newsection
+                {Results}
+? 
+
+./template.tex:42: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \newsection
+                {Results}
+? 
+./template.tex:42: You can't use `\eqno' in horizontal mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.42 \newsection
+                {Results}
+? 
+./template.tex:42: Missing $ inserted.
+<inserted text> 
+                $
+l.42 \newsection
+                {Results}
+? 
+./template.tex:42: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.42 \newsection
+                {Results}
+? 
+./template.tex:42: Argument of \caption@ydblarg has an extra }.
+<inserted text> 
+                \par 
+l.42 \newsection
+                {Results}
+? 
+Runaway argument?
+{\@caption \@captype }{\def \reserved@a *{\ttl@labelfalse \ttl@straight@i \ETC.
+./template.tex:42: Paragraph ended before \caption@ydblarg was complete.
+<to be read again> 
+                   \par 
+l.42 \newsection
+                {Results}
+? 
+
+./template.tex:42: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \newsection
+                {Results}
+? x
+ 
 Here is how much of TeX's memory you used:
- 34389 strings out of 493108
- 810191 string characters out of 6140726
- 953895 words of memory out of 5000000
- 37284 multiletter control sequences out of 15000+600000
+ 34218 strings out of 493108
+ 807139 string characters out of 6140726
+ 937894 words of memory out of 5000000
+ 37128 multiletter control sequences out of 15000+600000
  9981 words of font info for 37 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 71i,14n,92p,10451b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy8.pfb>
-Output written on template.pdf (9 pages, 300533 bytes).
+ 71i,8n,92p,10451b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 4 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

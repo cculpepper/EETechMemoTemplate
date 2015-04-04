@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.3.6)  3 APR 2015 19:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.3.6)  3 APR 2015 23:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1107,18 +1107,18 @@ Package newfloat Info: float type `tableCaption'=8 on input line 36.
  (./template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
 
 (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1183,7 +1183,7 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.11} into 
 your preamble.
- on input line 126.
+ on input line 137.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
@@ -1191,129 +1191,78 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 126.
+(lastpage)             ! on input line 137.
 \c__siunitx_mathsf_int=\count296
 \c__siunitx_mathtt_int=\count297
 <../title.png, id=4, 531.78674pt x 100.57574pt>
 File: ../title.png Graphic file (type png)
  <use ../title.png>
-Package pdftex.def Info: ../title.png used on input line 140.
+Package pdftex.def Info: ../title.png used on input line 151.
 (pdftex.def)             Requested size: 245.86638pt x 46.50005pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
+Underfull \hbox (badness 10000) in paragraph at lines 154--160
 
  []
 
-)
+) <simple.png, id=5, 440.64626pt x 213.79875pt>
+File: simple.png Graphic file (type png)
+ <use simple.png>
+Package pdftex.def Info: simple.png used on input line 25.
+(pdftex.def)             Requested size: 440.64517pt x 213.79822pt.
 
-LaTeX Warning: Reference `fig:simpleSrc' on page 1 undefined on input line 22.
+<wilson.png, id=7, 525.965pt x 282.05376pt>
+File: wilson.png Graphic file (type png)
+ <use wilson.png>
+Package pdftex.def Info: wilson.png used on input line 28.
+(pdftex.def)             Requested size: 525.9637pt x 282.05305pt.
+
+Overfull \hbox (27.30112pt too wide) in paragraph at lines 28--28
+ [][] 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../title.png> <./simple.pn
+g>] [2 <./wilson.png>] [3] (./preSim.tex) (./wilSim.tex) (./measSimp.tex)
+[4] (./measWil.tex) <simPlot.png, id=32, 455.98929pt x 256.38643pt>
+File: simPlot.png Graphic file (type png)
+
+<use simPlot.png>
+Package pdftex.def Info: simPlot.png used on input line 85.
+(pdftex.def)             Requested size: 455.98816pt x 256.38579pt.
+ <wilPlot.png, id=33, 455.12892pt x 256.38643pt>
+File: wilPlot.png Graphic file (type png)
+
+<use wilPlot.png>
+Package pdftex.def Info: wilPlot.png used on input line 86.
+(pdftex.def)             Requested size: 455.1278pt x 256.38579pt.
+ [5] (./finCalc.tex) [6 <./simPlot.png (PNG copy)> <./wilPlot.png (PNG copy)>]
+
+Package caption Warning: Unused \captionsetup[tableCaption] on input line 38.
+See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:simpleSrc' on page 1 undefined on input line 23.
-
-
-LaTeX Warning: Reference `fig:wilson' on page 1 undefined on input line 26.
-
-
-LaTeX Warning: Reference `eq:simpleROut' on page 1 undefined on input line 28.
-
-
-LaTeX Warning: Reference `eq:wilsonROut' on page 1 undefined on input line 29.
-
-
-LaTeX Warning: Reference `eq:ro' on page 1 undefined on input line 38.
-
-
-LaTeX Warning: Reference `eq:gm' on page 1 undefined on input line 38.
-
-./template.tex:42: Missing } inserted.
-<inserted text> 
-                }
-l.42 \newsection
-                {Results}
-? 
-./template.tex:42: Display math should end with $$.
-<to be read again> 
-                   r
-l.42 \newsection
-                {Results}
-? 
-./template.tex:42: Missing $ inserted.
-<inserted text> 
-                $
-l.42 \newsection
-                {Results}
-? 
-./template.tex:42: Extra }, or forgotten \endgroup.
-<argument> ...da I_d}{ $r_o$ Calculation Equation}
-                                                  
-l.42 \newsection
-                {Results}
-? 
-
-./template.tex:42: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 \newsection
-                {Results}
-? 
-./template.tex:42: You can't use `\eqno' in horizontal mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.42 \newsection
-                {Results}
-? 
-./template.tex:42: Missing $ inserted.
-<inserted text> 
-                $
-l.42 \newsection
-                {Results}
-? 
-./template.tex:42: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.42 \newsection
-                {Results}
-? 
-./template.tex:42: Argument of \caption@ydblarg has an extra }.
-<inserted text> 
-                \par 
-l.42 \newsection
-                {Results}
-? 
-Runaway argument?
-{\@caption \@captype }{\def \reserved@a *{\ttl@labelfalse \ttl@straight@i \ETC.
-./template.tex:42: Paragraph ended before \caption@ydblarg was complete.
-<to be read again> 
-                   \par 
-l.42 \newsection
-                {Results}
-? 
-
-./template.tex:42: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 \newsection
-                {Results}
-? x
- 
+AED: lastpage setting LastPage
+[7] (./template.aux) ) 
 Here is how much of TeX's memory you used:
- 34218 strings out of 493108
- 807139 string characters out of 6140726
- 937894 words of memory out of 5000000
- 37128 multiletter control sequences out of 15000+600000
- 9981 words of font info for 37 fonts, out of 8000000 for 9000
+ 34277 strings out of 493108
+ 807722 string characters out of 6140726
+ 947894 words of memory out of 5000000
+ 37165 multiletter control sequences out of 15000+600000
+ 10602 words of font info for 39 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 71i,8n,92p,10451b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-No pages of output.
+ 71i,14n,92p,10451b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on template.pdf (7 pages, 156615 bytes).
 PDF statistics:
- 4 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

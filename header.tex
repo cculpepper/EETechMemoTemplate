@@ -78,11 +78,20 @@
 		\label{#2}
 	\end{figure}
 }
+\newcommand{\ntab}[3]{
+	\begin{table}[H]
+	\centering
+	\input{#2}
+
+	\caption{#3}
+	\label{#1}
+\end{table}
+}
 %Adds a table by CSV. Adds caption, label. 
 %1 The label
 %2 The filename
 %3 The caption
-\newcommand{\ntab}[3]{
+\newcommand{\ntabold}[3]{
 \DTLloaddb[autokeys]{#1}{#2}
 	\arrayrulecolor{black}
 	\begin{table}[H]

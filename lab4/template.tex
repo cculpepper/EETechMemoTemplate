@@ -1,0 +1,74 @@
+%Lab template made by Joshua Milas for the EEEE labs
+
+\def \labnum	{\#4}
+\def \tonames   {Tyler Nicholson}
+\def \disptitle	{MOSFET Differential Pair with Active Load}
+\def \datestart	{04-03-2015}
+\def \dateend	{04-17-2015}
+
+\input{../header.tex}
+
+\hyphenation{MOSFET} %Makes MOSFET not hyphenated
+
+
+\newsection{Abstract}
+The purpose of this exercise was to utilize the previously designed current source to implement an amplifier circuit. 
+The modified Wilson current source was used as a bias current source for an active load differential amplifier with a single output. 
+Once the circuit was designed and implemented correctly, it exhibited a gain that was close to the calculated value. 
+
+\newsection{Theory}
+
+The circuit used for this exercise is shown in figure \ref{fig:cir}. 
+\nimg[width=6in]{fig:cir}{circuit.png}{Basic Amplifier Circuit}
+By grounding the gates of the two NMOS transistors in the amplifier circuit, and assuming an $I_{ref}$ of 4mA, the Q-point values $V_{GSQ1}$ and $V_{GSQ2}$ can be found through the application of equation \ref{eq:vgsq}.
+$V_{GSQ1}$ and $V_{GSQ2}$ were calculated to be 1.96V. 
+\eq{eq:vgsq}{
+	I_D = \frac{1}{2}k(V_{GS}-V_t)^2
+	}{MOSFET Current Equation}
+
+
+%2nd question
+In order to allow bias current to flow through both sides of the amplifier, a common mode voltage, $V_{COM}$ needs to be applied. 
+To ensure that all transistors remain in saturation, a minimum $V_{COM}$ value needs to be found. This value is calculated through equation \ref{eq:vcom}. This value was found to be <TODO>. 
+
+
+	
+%3
+An important parameter of an amplifier is its gain. In the differential amplifier, there are two types of gain, differential and common mode. Differential gain refers to the gain when there is a differential voltage applied. Common mode gain is the gain of a common mode signal, or the same voltage applied to both inputs in addition to the differential signal.
+
+Common mode signals are most likely noise that affects both inputs. Because the differential amplifier takes a difference between its two inputs, it is relatively good at filtering out common mode signals. 
+To calculate the differential gain, $A_d$, equation \ref{eq:ad} is used. Calculation of the common mode gain, $A_{cm}$, uses equation \ref{eq:acm}. 
+\eq{eq:ad}{
+	A_d = (frac{v_o}{v_{diff}}) = g_m(r_{o2}||r_{o4}||R_L)}{
+	Equation for the Calculation of the Differential Gain}
+\eq{eq:acm}{
+	A_{CM} = (\frac{v_o}{v_{cm}}) \approx - \frac{1}{2g_{m3}R_o}}{
+	Equation for the Calculation of the Common Mode Gain}
+	
+The ratio of differential gain to common mode gain is called the common mode rejection ratio. This is usually measured in decibels, and is calculated through equation \ref{eq:cmrr}.
+\eq{eq:cmrr}{
+	CMRR (dB) = 20log\abs{\frac{A_d}{A_{CM}}}}{
+	Equation for the Calculation of the Common Mode Rejection Ratio}
+
+<TODO> RESULTS
+
+The MOSFET parameters previously calculated can also be found through the use of PSpice simulation software. The simulated Q-point values were found to be <TODO>. 
+Adding an AC signal to one of the gates of the amplifier, in addition to the common mode voltage, enables the study of the amplifier over many voltages. The circuit used to accomplish this is given in figure \ref{fig:precir5.png}.
+\nimg[width=6in]{fig:precir5}{precir5.png}{AC Differential Input Circuit}
+A plot of the data gathered is shown in figure \ref{fig:pre5}.
+%\nimg{fig:pre5}{pre5.png}{Plot of the Output and Input Voltage for Figure \ref{fig:precir5}. 
+Using the input and output voltages gathered from the simulation, the differential gain was simulated to be <TODO>. 
+Similarly to how the differential gain was calculated, the common mode gain can be calculated using a simulation. This was done using the circuit in figure \ref{fig:precir6}. The plot of the data gathered is given in figure \ref{fig:pre6}. 
+
+\nimg[width=6in]{fig:precir6}{precir6.png}{Common Mode Gain Input Circuit}
+The common mode gain was calculated to be <TODO>, giving a common mode rejection ratio of <TODO>. 
+
+
+\newsection{Results}
+\newsection{Conclusion}
+Current sources are important for amplifying circuits. The more stable the source, the bettor quality of amplification. This exercise reinforced theory learned in class and was valuable in that it taught the use and troubleshooting of important circuits which will be used later in lab. 
+Even though the results for the output resistance were off for the Wilson source, the results were consistent, suggesting a problem with the measurements, or the chip. 
+The results for the simple source were consistent and close to the expected values. 
+
+
+\end{document}

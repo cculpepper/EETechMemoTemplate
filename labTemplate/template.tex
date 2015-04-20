@@ -1,0 +1,41 @@
+%Lab template made by Joshua Milas for the EEEE labs
+\def \name 		{Chris Culpepper (Computer Engineering)}
+\def \labnum	{\#4}
+\def \tonames   {Tyler Nicholson}
+\def \disptitle	{MOSFET Differential Pair with Active Load}
+\def \datestart	{04-03-2015}
+\def \dateend	{04-17-2015}
+
+\input{../header.tex}
+
+\hyphenation{MOSFET} %Makes MOSFET not hyphenated
+
+
+\newsection{Abstract}
+This is a paragraph. use a double backslash to start a new one. \\
+like that. (In the tex document)
+\newsection{Theory}
+
+The circuit used for this exercise is shown in figure \ref{fig:cir}. 
+\nimg[width=6in]{fig:cir}{circuit.png}{Basic Amplifier Circuit}
+That is an image with an included reference. Using references will make it easy.
+%Latex can have comments too!!!!!!!
+Below are equations. Note that math mode doesnt need to be entered for the actual equation. 
+Argument format is reference, equation and the caption. 
+\eq{eq:ad}{
+	A_d = (frac{v_o}{v_{diff}}) = g_m(r_{o2}||r_{o4}||R_L)}{
+	Equation for the Calculation of the Differential Gain}
+\eq{eq:acm}{
+	A_{CM} = (\frac{v_o}{v_{cm}}) \approx - \frac{1}{2g_{m3}R_o}}{
+	Equation for the Calculation of the Common Mode Gain}
+	
+\newsection{Results}
+THis is how a new section is made. 
+
+Speaking of making, provided is a makefile that will run latex the appropriate number of times and refresh the pdf viewer. 
+\\
+I use this in arch linux and need xpdf, texstudio and make installed. I have the editor open in one tab and make running an another. When I write, it refreshes the pdf. 
+\newsection{Conclusion}
+An appendix can be added the same way. 
+
+\end{document}
